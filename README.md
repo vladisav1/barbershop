@@ -1,3 +1,2 @@
 # barbershop
-# barbershop
 Сайт Barbershop
