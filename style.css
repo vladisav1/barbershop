@@ -1,0 +1,187 @@
+*{
+margin: 0;
+padding: 0;
+}
+ @font-face {
+    font-family: 'PT Sans Narrow'; /* Имя шрифта */
+     src: local("PT Sans Narrow"),
+       url("../fonts/ptsans/PTSans/PTN57F.ttf");
+   
+ 
+}
+body{
+	background: url(img/bg-body.png) no-repeat;
+	background-position: center center;
+	 font-family: 'PT Sans Narrow';
+}
+header{
+	
+	margin-top: 0px;
+	width: 100%;
+	height: 72px;
+	background: black;
+}
+.main-menu {
+    padding: 10px 15px;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.main-menu li {
+    display: inline;
+    padding-left:50px;
+}
+.main-menu li:last-child{
+	padding-left: 140px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+     font-family: 'PT Sans Narrow';
+     font-size: 16pt;
+     font-weight: bold;
+}
+.main-menu a:hover{
+	border-bottom: 2px solid #fff;
+}
+.main-menu a:active{
+	border-bottom: 2px solid orange;
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+/*Content*/
+.wrapper{
+	width: 940px;
+	height: 540px;	
+	margin: auto;
+
+}
+.logo{
+	margin-top: 60px;
+	 text-align: center; 
+}
+.column{
+	float: left;
+	width: 300px;
+	height: 180px;
+	color:#fff;
+	text-align:center;
+	text-transform: uppercase;
+	margin-left: 8px;
+	 font-family: 'PT Sans Narrow';
+     font-size: 14pt;
+     font-weight: bold;
+	
+}
+.news{
+	width: 940px;
+	height: 430px;	
+	margin: auto;
+	background: url(img/bg-content.png);
+	text-align:center;
+	margin-bottom: 35px;
+
+}
+.column-news{
+	width: 400px;
+	height: 360px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.photogallery{
+	width: 400px;
+	height: 160px;
+	float: left;
+	padding-top: 25px;
+
+}
+
+.contact{
+	width: 940px;
+	height: 430px;	
+	margin: auto;
+	background: url(img/bg-content.png);
+	text-align:left;
+	margin-bottom: 50px;
+	 font-family: 'PT Sans Narrow';
+     font-size: 12pt;
+     font-weight: bold;
+}
+.column-contact{
+	width: 400px;
+	height: 360px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 25px;
+}
+
+input{
+	border: 2px solid black;
+	width: 140px;
+	height: 35px;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+input[type=submit]{
+	width: 315px;
+	height: 40px;
+	background: black;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+/*Подвал*/
+
+footer{
+	width: 100%;
+	background: url(img/bg-footer.png);
+	height: 190px;
+	margin: auto;
+	 font-family: 'PT Sans Narrow';
+     font-size: 14pt;
+     font-weight: bold;
+}
+
+.info{
+	width: 310px;
+	height: 120px;
+	color: white;
+	font-size: 14px;
+	padding-top: 60px;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	margin:auto;
+}
+
+.info h3{
+	font-size: 20px;
+}
+
+.icon{
+	font-weight: bold;
+	width: 310px;
+	height: 120px;
+	color: white;
+	font-size: 20px;
+	padding-top: 60px;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*Footer End*/
